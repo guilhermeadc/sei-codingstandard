@@ -1,0 +1,23 @@
+{
+    "name": "guilhermeadc/sei-codingstandard",
+    "description": "Padrão de codificação para o projeto SEI e módulos complementares.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme Cantoni",
+            "email": "guilhermeadc@gmail.com",
+            "homepage": "https://github.com/guilhermeadc",
+            "role": "Author"
+        }
+    ],
+    "require": {
+        "squizlabs/php_codesniffer": "^3.6"
+    },
+    "scripts": {
+        "validate-composer": "@composer validate --no-check-all --strict"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
